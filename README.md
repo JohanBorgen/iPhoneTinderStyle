@@ -8,14 +8,6 @@ The basics of a Tinder-like swipeable cards interface influenced by http://guti.
 
 This is meant to be taken and built off of, not as a simple drag and drop solution.  New developers are often forced to use dependencies they don't understand and can't customize.  This is the opposite.  I've fully explained exactly how this works in detailed comments so that you can take it apart and customize it at will.  For a pod/drag and drop solution, see https://github.com/modocache/MDCSwipeToChoose
 
-###Updates, Questions, and Requests
-[twitter](https://twitter.com/cwRichardKim) <--- I am a very light twitterer, so I wont spam you
-
-or [Support](http://cwrichardkim.com)
-
-###Relevant Article for deciding how to implement swipe cards into your app
-https://medium.com/@cwRichardKim/adding-tinder-esque-cards-to-your-iphone-app-4047967303d1
-
 ###On top of your current View Controllers
 ![alt tag](http://imgur.com/wXPnfN2.gif)
 
@@ -101,11 +93,6 @@ __Loading Data__
 __Presenting Data in View__
 * Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos in custom UIImageViews)
 * to access any card directly, use [loadedCards objectAtIndex:yourIndex];  For example, the card that is currently visible is at [loadedCards firstObject];
-
-### Looking for certain features?
-* up/down-swipe: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
-* card state: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
-* delegate example: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
 
 ### Areas for Future Improvement / Involvement
 * Too much happening in a view (DraggableViewBackground)
