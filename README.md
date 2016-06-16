@@ -1,4 +1,4 @@
-TinderSimpleSwipeCards
+iPhoneTinderStyle
 ======================
 ![alt tag](http://imgur.com/4bYw12e.gif)
 
